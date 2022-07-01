@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+       <div class="form-image">
+        <img src="img/undraw_to_the_moon_re_q21i.svg">
+       </div>
+
+       <div class="form">
+            <form action="#">
+                <div class = "form-header">
+                    <div class=" title">
+                        <h1>Cadastro de Empresas</h1>
+                    </div>
+
+                    <div class="input-group">
+                        <!--Recebe os input de cadastro-->
+
+                        <div class="input-box">
+                            <label for="name">Nome: </label>       
+                            <input type="text" id="name" placeholder="Digite o nome da empresa" required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="city">Cidade: </label>       
+                            <input type="text" id="city" placeholder="Digite a cidade " required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="adress">Endereço: </label>       
+                            <input type="text" id="adress" placeholder="Digite o endereço da empresa" required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="site">Site: </label>       
+                            <input type="text" id="site" placeholder="Digite o site da empresa" required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="number">Telefone: </label>       
+                            <input type="number" id="number" placeholder="(xx) xxxx-xxxx" required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+
+
+                        <div class="input-box">
+                            <label for="email">E-mail: </label>       
+                            <input type="email" id="email" placeholder="Digite o email da empresa" required>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+
+                        
+                        <div class="input-box" style="width: 100%;" >
+                            <label for="description">Descrição </label>       
+                            <textarea id="description" placeholder="Digite uma breve descrição " required></textarea>
+                            <!--Campo obrigatório determinado pelo required-->
+                        </div>
+                    </div>
+
+                    <div class="area-inputs">
+                        <div class="area-title">
+                            <h3>Área de atuação</h3>
+                        </div>
+
+                        <div class="area-group">
+                            <div class="area-input">
+                                <input type="checkbox" id="satelites" required >
+                                <label for="satelites">Satélites</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="lancadores" required >
+                                <label for="lancadores">Lançadores</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="aplication" required >
+                                <label for="aplication">Aplicações</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="hardware" required >
+                                <label for="hardware">Hardware</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="software" required >
+                                <label for="software">Software</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="infra" required >
+                                <label for="infra">Infraestrutura</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="services" required >
+                                <label for="services">Serviços</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+
+                            <div class="area-input">
+                                <input type="checkbox" id="others" required >
+                                <label for="others">Outros</label>
+                                <!--Campo para marcação de area da empresa-->
+                            </div>
+                        </div>
+
+                        <div class="login-bottom">
+                            <button> <a href="#"> Continuar </a></button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+       </div>
+
+    </div>
+</body>
+
+</html>

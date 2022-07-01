@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    
+}
+
+.form-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63 61 86);
+    padding: 1rem;
+}
+
+
+.form-image img{
+    width: 31rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+.title{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.login-bottom{
+    display: flex;
+    align-items: center;
+
+}
+
+.login-bottom button {
+    border: none;
+    background-color: rgb(63 61 86);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.login-bottom button:hover{
+    background-color: #14213d;
+}
+
+.login-bottom button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #14213d;
+    position: absolute;
+    
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input, .input-box textarea{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    
+    outline: none;
+    box-shadow: 1px 1px 6px #14213d;
+}
+
+.input-box textarea{
+    width: 100%;
+    resize: vertical;
+}
+
+
+
+.input-box input:hover{
+    background-color: #E5E5E5;
+}
+
+.input-box label, .area-title h3{
+    
+    font-weight: 600;
+    color: #000000;
+}
+
+.input-box input::placeholder{
+    color: #b1afaf;
+}
+
+.area-group{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+    gap: 16px;
+}
+
+.area-input{
+    display: flex;
+    align-items: center;
+}
+
+.area-input input{
+    margin-right: 0.35rem;
+}
+
+.area-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000;
+}
+
