@@ -3,16 +3,19 @@ from re import M
 from django.db import models 
 
 class Cidade(models.Model):
+   
     municipio = models.CharField(max_length=20, null=True)
     uf = models.CharField(max_length=5, null=True)
    
 
 class Area(models.Model):
+  
     area = models.CharField(max_length=20, null=False)
 
 
 
 class Empresa(models.Model):
+
     nome = models.CharField(max_length=100, null=False)
     cidade = models.TextField(null=False)
     endereco = models.CharField(max_length=100, null=False)
