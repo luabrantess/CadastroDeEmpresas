@@ -35,7 +35,7 @@ body{
 
 
 .form-image img{
-    width: 31rem;
+    width: 100%;
 }
 
 .form {
@@ -150,7 +150,7 @@ body{
 }
 
 .area-input input{
-    margin-right: 0.35rem;
+    margin-right: 0.2rem;
 }
 
 .area-input label{

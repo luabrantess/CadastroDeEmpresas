@@ -3,20 +3,16 @@ from re import M
 from django.db import models 
 
 class Cidade(models.Model):
-    id = models.IntegerField(null=False, primary_key=True)
     municipio = models.CharField(max_length=20, null=True)
     uf = models.CharField(max_length=5, null=True)
    
 
 class Area(models.Model):
-    id = models.IntegerField(primary_key=True, null= False)
     area = models.CharField(max_length=20, null=False)
 
 
 
 class Empresa(models.Model):
-
-    id = models.IntegerField(null=False, primary_key=True)
     nome = models.CharField(max_length=100, null=False)
     cidade = models.TextField(null=False)
     endereco = models.CharField(max_length=100, null=False)
@@ -24,7 +20,6 @@ class Empresa(models.Model):
     descricao_ingles = models.TextField(max_length=200, null=True)
     slogan = models.TextField(max_length=100, null=True)
     ponto_contato = models.CharField(max_length=50, null=True)
- 
     email = models.CharField(max_length=50, null=False)
     site = models.CharField(max_length=50, null=True)
     
